@@ -1,0 +1,181 @@
+
+body
+ {
+  font-family: "Helvetica";
+  background-color: #95b1ff5e;
+  background-image: none;
+  background-image: url("https://get.pxhere.com/photo/sea-ocean-horizon-cloud-sky-sunrise-sunset-sunlight-dawn-atmosphere-dusk-daytime-reflection-cumulus-blue-pink-sky-afterglow-evening-sky-the-scenery-meteorological-phenomenon-purple-sky-evening-news-atmospheric-phenomenon-atmosphere-of-earth-686404.jpg");
+  color: #000000;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+{
+  font-family: Roboto, sans-serif;
+}
+
+.container {
+  padding: 0 40px;
+  margin-left: 80px;
+}
+
+  /* Свойства ссылок */
+a {
+  display: block;
+  text-decoration:none;
+  margin-bottom: 1.2em;
+  position: relative;
+}
+
+  /* Что делать при наведении на ссылку */
+a:hover {
+  color:#fcbbf6;
+}
+
+  /* Этим свойством добавляем подчеркивание через создание псевдокласса */
+a::after {
+  content: '';
+  position: absolute;
+  left: 105px;
+  right: 1;
+  transform: translateY(1.5em);
+  border-bottom: 1px solid #dadada;
+  width: 200px;
+}
+
+h1 {
+  font-size: 2em;
+}
+
+h2 {
+  font-size: 1.5em;
+  margin: 1.25em 0;
+}
+
+  /* Свойства фотографии*/
+.photo {
+  border-radius: 100px;
+  /* Радиус скругления */
+  border: 3px solid transparent;
+  /* Параметры рамки */
+  box-shadow: 0 4px 15px 0px rgba(0, 0, 0, 0.52);
+  object-fit: cover;
+}
+
+  /* Эффект наведения на картинку */
+.photo:hover {
+  border: 3px solid #fcbbf6;
+}
+table.iksweb {
+  width: 80%;
+  border-collapse:collapse;
+  background-color: rgba(215, 187, 252, 0.5); /* Прозрачный фон */
+  border-radius: 10px; /* Закругленные углы */
+  border-spacing:0;
+  height: auto;
+}
+table.iksweb,table.iksweb td, table.iksweb th {
+  border: 0px solid #595959;
+}
+table.iksweb td,table.iksweb th {
+  padding: 3px;
+  wih: 45pdtx;
+  height: 45px;
+}
+table.iksweb th {
+  background: #fcbbf6; 
+  color: #fcbbf6; 
+  font-weight: normal;
+}
+.links__header {
+  font-family: "Helvetica Neue";
+  font-size: 24px;
+  line-height: 1.4;
+  margin: 0 0 15px 0;
+}
+
+.links__container {
+  list-style-type: none;
+  background: #80c2ff6b;
+  border-radius: 10px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  padding: 20px 20px 10px;
+  gap: 10px;
+  flex: none;
+  order: 1;
+  flex-grow: 0;
+  box-sizing: border-box;
+  margin: 0;
+}
+
+.links__link,
+.links__title {
+  font-size: 14px;
+  font-size: 1.4;
+}
+
+.links__link {
+  display: inline-block;
+  flex-direction: row;
+  align-items: flex-start;
+  padding: 0px 0px 00px;
+  gap: 30px;
+  border-bottom: 1px solid #00000044;
+  width: 365px;
+}
+
+.links__link:last-child {
+  border-bottom: none;
+}
+
+.linsk__link,
+.links__link:visited {
+  text-decoration: none;
+  color: rgb(1, 85, 50);
+}
+
+.links__title {
+  margin: 0;
+  min-width: 100px;
+}
+
+footer {
+  margin: 0 0 40px 0;
+}
+.button-link {
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  padding: 10px;
+  width: 320px;
+  background: #004945;
+  border-radius: 20px;
+
+  font-size: 16px;
+  line-height: 1.4;
+
+  color: #ffffff;
+  text-decoration: none;
+}
+.button-link {
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  padding: 10px;
+  width: 320px;
+  background: #6b0accf5;
+  border-radius: 20px;
+
+  font-size: 16px;
+  line-height: 1;
+
+  color: #ffffff;
+  text-decoration: none;
+}
